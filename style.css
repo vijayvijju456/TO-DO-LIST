@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.section input {
+    width: 250px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 22px;
+}
+
+.section input:focus {
+    outline: 0;
+}
+
+.section button {
+    width: 50px;
+    height: 40px;
+    font-size: 22px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    cursor:pointer;
+    color: brown;
+}
+
+.add-to-dos{
+    margin-top: 25px;
+}
+
+.tasks {
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
